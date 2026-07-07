@@ -1,0 +1,6 @@
+{
+  "name": "Disaster Drill Center",
+  "description": "An interactive 3D virtual disaster drill simulator that converts 2D campus blueprints into immersive emergency preparedness training environments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

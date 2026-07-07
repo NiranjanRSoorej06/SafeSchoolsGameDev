@@ -1,0 +1,366 @@
+{
+  "schoolName": "Riverdale Public School",
+  "floorsCount": 2,
+  "rooms": [
+    {
+      "id": "gf_class1",
+      "name": "Classroom 1",
+      "type": "classroom",
+      "x": 10,
+      "y": 10,
+      "width": 22,
+      "height": 18,
+      "floor": 1,
+      "color": "#e0f2fe",
+      "doors": [
+        {
+          "id": "door_gf_class1",
+          "x": 20,
+          "y": 28,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [
+        {
+          "id": "win_gf_class1",
+          "x": 15,
+          "y": 10,
+          "width": 5
+        }
+      ],
+      "furniture": []
+    },
+    {
+      "id": "gf_class2",
+      "name": "Classroom 2",
+      "type": "classroom",
+      "x": 36,
+      "y": 10,
+      "width": 22,
+      "height": 18,
+      "floor": 1,
+      "color": "#e0f2fe",
+      "doors": [
+        {
+          "id": "door_gf_class2",
+          "x": 46,
+          "y": 28,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [
+        {
+          "id": "win_gf_class2",
+          "x": 41,
+          "y": 10,
+          "width": 5
+        }
+      ],
+      "furniture": []
+    },
+    {
+      "id": "gf_office",
+      "name": "Principal Office",
+      "type": "office",
+      "x": 62,
+      "y": 10,
+      "width": 18,
+      "height": 18,
+      "floor": 1,
+      "color": "#fde68a",
+      "doors": [
+        {
+          "id": "door_office",
+          "x": 70,
+          "y": 28,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "gf_library",
+      "name": "Library",
+      "type": "library",
+      "x": 10,
+      "y": 36,
+      "width": 30,
+      "height": 20,
+      "floor": 1,
+      "color": "#fef3c7",
+      "doors": [
+        {
+          "id": "door_library",
+          "x": 23,
+          "y": 56,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "gf_lab",
+      "name": "Computer Lab",
+      "type": "laboratory",
+      "x": 44,
+      "y": 36,
+      "width": 24,
+      "height": 20,
+      "floor": 1,
+      "color": "#dcfce7",
+      "doors": [
+        {
+          "id": "door_lab",
+          "x": 55,
+          "y": 56,
+          "width": 3,
+          "height": 1,
+          "isOpen": false
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "gf_stair",
+      "name": "Central Staircase",
+      "type": "staircase",
+      "x": 72,
+      "y": 36,
+      "width": 10,
+      "height": 20,
+      "floor": 1,
+      "color": "#fde68a"
+    },
+    {
+      "id": "gf_corridor",
+      "name": "Ground Floor Corridor",
+      "type": "corridor",
+      "x": 8,
+      "y": 30,
+      "width": 76,
+      "height": 4,
+      "floor": 1,
+      "color": "#f3f4f6"
+    },
+    {
+      "id": "gf_exit",
+      "name": "Emergency Exit",
+      "type": "emergency_exit",
+      "x": 86,
+      "y": 36,
+      "width": 8,
+      "height": 12,
+      "floor": 1,
+      "color": "#dcfce7",
+      "doors": [
+        {
+          "id": "door_exit_gf",
+          "x": 89,
+          "y": 48,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ]
+    },
+
+    {
+      "id": "ff_class3",
+      "name": "Classroom 3",
+      "type": "classroom",
+      "x": 10,
+      "y": 10,
+      "width": 22,
+      "height": 18,
+      "floor": 2,
+      "color": "#e9d5ff",
+      "doors": [
+        {
+          "id": "door_ff_class3",
+          "x": 20,
+          "y": 28,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "ff_class4",
+      "name": "Classroom 4",
+      "type": "classroom",
+      "x": 36,
+      "y": 10,
+      "width": 22,
+      "height": 18,
+      "floor": 2,
+      "color": "#e9d5ff",
+      "doors": [
+        {
+          "id": "door_ff_class4",
+          "x": 46,
+          "y": 28,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "ff_staff",
+      "name": "Staff Room",
+      "type": "office",
+      "x": 62,
+      "y": 10,
+      "width": 18,
+      "height": 18,
+      "floor": 2,
+      "color": "#fecaca",
+      "doors": [
+        {
+          "id": "door_staff",
+          "x": 70,
+          "y": 28,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "ff_class5",
+      "name": "Classroom 5",
+      "type": "classroom",
+      "x": 10,
+      "y": 36,
+      "width": 22,
+      "height": 20,
+      "floor": 2,
+      "color": "#e9d5ff",
+      "doors": [
+        {
+          "id": "door_ff_class5",
+          "x": 20,
+          "y": 56,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "ff_class6",
+      "name": "Classroom 6",
+      "type": "classroom",
+      "x": 36,
+      "y": 36,
+      "width": 22,
+      "height": 20,
+      "floor": 2,
+      "color": "#e9d5ff",
+      "doors": [
+        {
+          "id": "door_ff_class6",
+          "x": 46,
+          "y": 56,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "ff_science",
+      "name": "Science Lab",
+      "type": "laboratory",
+      "x": 62,
+      "y": 36,
+      "width": 20,
+      "height": 20,
+      "floor": 2,
+      "color": "#bbf7d0",
+      "doors": [
+        {
+          "id": "door_science",
+          "x": 71,
+          "y": 56,
+          "width": 3,
+          "height": 1,
+          "isOpen": false
+        }
+      ],
+      "windows": [],
+      "furniture": []
+    },
+    {
+      "id": "ff_stair",
+      "name": "Central Staircase",
+      "type": "staircase",
+      "x": 72,
+      "y": 36,
+      "width": 10,
+      "height": 20,
+      "floor": 2,
+      "color": "#fde68a"
+    },
+    {
+      "id": "ff_corridor",
+      "name": "First Floor Corridor",
+      "type": "corridor",
+      "x": 8,
+      "y": 30,
+      "width": 76,
+      "height": 4,
+      "floor": 2,
+      "color": "#f3f4f6"
+    },
+    {
+      "id": "ff_exit",
+      "name": "Emergency Exit",
+      "type": "emergency_exit",
+      "x": 86,
+      "y": 36,
+      "width": 8,
+      "height": 12,
+      "floor": 2,
+      "color": "#dcfce7",
+      "doors": [
+        {
+          "id": "door_exit_ff",
+          "x": 89,
+          "y": 48,
+          "width": 3,
+          "height": 1,
+          "isOpen": true
+        }
+      ]
+    }
+  ],
+  "assemblyArea": {
+    "x": 92,
+    "y": 85,
+    "radius": 10,
+    "name": "Central Assembly Ground"
+  }
+}
